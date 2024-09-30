@@ -1,0 +1,155 @@
+/* css para el header */
+
+header {
+    background-color:#abebc6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    border: 5px solid #2980b9;
+    height: 150px;
+}
+
+header h1 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+   margin-left: 25%;
+    
+}
+
+header i {
+    color:#2980b9;
+    margin-left: 300%;
+    font-size: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    gap:1.8em;
+    margin-top:20%;
+    list-style: none;
+    margin-right: 5%;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* CSS para el body*/
+
+body {
+    margin: 0;
+    background-color: #F1D4AF;
+}
+
+/* sección de inicio*/
+
+.inicio {
+    display: flex;
+   justify-content: space-between;
+   
+}
+
+.text-1{
+   
+    position: relative;
+    height:335.25px;
+    margin:5px;
+    left: 15%;
+}
+.uno {
+text-align: justify;
+padding: 5px;
+width: 300px;
+position: relative;
+top:10%;
+
+}
+
+.text-1 h2{
+    text-align: center;
+    position: relative;
+    top:10%;
+}
+
+.dos {
+    text-align: center;
+    position: relative;
+    top:10%;
+}
+
+.imagen-1 img {
+    width:674.5px;
+    height:337.25px;
+    padding: 5px;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.tarjetas h2 {
+    background-color:#abebc6;
+    border: 3px solid #2980b9;
+    text-align: center;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap:30px;
+    margin: 1%;
+    border-radius: 3px;
+   
+}
+
+.opciones p {
+    text-align: justify;
+    padding: 10px;
+    width: 400px;
+    background-color: #F1D4AF;
+    border-radius: 3px;
+}
+
+.opciones h3 {
+    text-align: center;
+    background-color:#F1D4AF ;
+}
+
+.opciones {
+    background-color:rgba(236, 197, 21, 0.993);
+    padding: 5px;
+    border-radius: 5px;
+    border: 3px solid #2980b9;
+}
+
+.opciones img {
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.opciones {
+    width: 300px;
+    height: 400px;
+    margin:30px;
+}
+
+.opciones p{
+    width: 280px;
+    height: 150px;
+}

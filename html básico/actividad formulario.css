@@ -1,0 +1,48 @@
+body {
+    background-color:powderblue;
+}
+
+header {
+
+    background-color: skyblue;
+}
+
+header h1 {
+    margin-left: 40%;
+}
+ 
+body {
+    margin: 0;
+}
+
+.datos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:powderblue;
+}
+
+.dato1{
+    margin-left: 36%;
+}
+
+.dato2 {
+    margin-right: 30%;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.datos2 {
+    background-color: skyblue;
+    margin-top: 25px;
+    padding: 5px;
+ 
+}
+
+.dato3 {
+    text-align: left;
+    background-color: skyblue;
+    margin-left: 36%;
+  
+}
+

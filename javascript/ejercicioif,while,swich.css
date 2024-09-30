@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(128, 218, 128);
+}
+
+.container {
+    position: relative;
+    left: 35%;
+    top:200px;
+    border: 2px solid white;
+    background-color: white;
+    width: 500px;
+}
+
+h1 {
+    text-align: center;
+}
+

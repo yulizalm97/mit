@@ -1,0 +1,35 @@
+*{
+    background-color: blueviolet;
+}
+
+h1 {
+
+    background-color: aqua;
+}
+
+h3 {
+    background-color: violet;
+}
+
+p {
+    background-color: beige;
+}
+
+.parrafo1 {
+    background-color: cadetblue     ;
+}
+
+/*las etiquetas como href se deben colocar entre llaves*/
+
+[href*="Facebook"] {
+
+    color: black;
+}
+
+[href^=instagram] {
+    background-color: blue;
+}
+
+/* esta etiqueta [href^ (se hace con la tecla que la contiene, alt derecho y espacio) se le coloca el css al lo que le pongas https*/
+/*[href*="ejemplo" busca el link que tenga la palabra facebook.
+/*agrupar todo lo que es igual para ocupar menos línas de código*/

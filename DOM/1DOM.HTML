@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cambio de color Click</title>
+</head>
+<body>
+    <button id="cambiarcolor">Cambiar color de fondo</button>
+    <script>
+        //selecciona el botón por su id 'cambiarcolor'
+        const boton=document.getElementById('cambiarcolor');
+        //array que contiene los colores que se usarán
+        const colores=['lightblue', 'lightgreen', 'pink', 'gray'];
+        //Variable para llevae la cuenta del índice de color
+        let indice =0;
+        // botón click
+        boton.addEventListener('click',()=>{
+            document.body.style.backgroundColor=colores[indice]
+            indice= (indice +1)% colores.length;
+        });
+    </script>
+</body>
+</html>
