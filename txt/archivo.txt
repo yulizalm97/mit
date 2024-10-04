@@ -1,0 +1,1 @@
+estoy aprendiendo a manejar archivos txt en python
