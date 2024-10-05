@@ -1,0 +1,5 @@
+Juan:84.33
+María:91.67
+Pedro:75.00
+Lucía:87.33
+Carlos:65.00

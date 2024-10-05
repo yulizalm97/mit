@@ -1,0 +1,18 @@
+[
+    {
+        "nombre": "Ana",
+        "apellido": "Vela",
+        "corte_academico": "Corte2",
+        "nota1": 4.2,
+        "nota2": 3.8,
+        "nota3": 4.6
+    },
+    {
+        "nombre": "Alex",
+        "apellido": "Gonzo",
+        "corte_academico": "Corte1",
+        "nota1": 3.5,
+        "nota2": 3.8,
+        "nota3": 4.6
+    }
+]
