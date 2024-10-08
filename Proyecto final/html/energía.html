@@ -3,124 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energía</title>
-    <link rel="stylesheet" href="/Proyecto final/css/energía.css">
+    <title>Energy</title>
+    <link rel="stylesheet" href="/Proyecto final/css/Energía.css">
+    <script src="https://kit.fontawesome.com/2e6d57143a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header>
-        <H1>ENERGÍA</H1>
-        <nav>
-            <ul>
-                <a href="consumohogar"><li>consumo hogar</li></a>
-            </ul>
-        </nav>
-    </header>
-    <MAIN>
-        <section class="def">
-            <h2>¿Qué es?</h2>
-            <p> Capacidad de los cuerpos, mediante un trabajo, de producir cambios en el mismo y otros cuerpos, es decir, hacer funcionar las cosas, la unidad de medida de la energía es el joule (j)</p>
-        </section>
-        <section class="energia">
-            <h2>Tipos de energía</h2>
+    <Header>
+        <h3>Todo sobre</h3>
+        <h1>Energía</h1>
+    </Header>
 
-            <div class="container">
+    <section class="main">
+            <article class="container">
+                <h3>Energía <br> primaria</h3>
+                <p>También llamada recursos energéticos, es aquella que proviene de la naturaleza  antes de ser transformada o convertida. Como: <br> El sol, el viento, el agua, el calor (procedente del centro de la tierra) la biomasa, combustibles fósiles y minerales radiactivos.</p>
+            </article>
 
-                <div class="tarjetas">
-                    <h3> Mécania</h3>
-                    <img src="/Proyecto final/imagenes/cascada de agua mecanica" alt="energía mecanica">
-                    <p class="uno">Produce un trabajo a través del movimiento y posición de un objeto, lo que involucra energía como la cinética, la elástica y la potencial
-                    </p>
-                    <p class="dos">
-                        Ejemplo: El agua cuando cae en cascada.
-                    </p>
+            <article class="fuentes">
+                <h4>El viento</h4>
+                <p>produce energía eólica; a partir del movimiento de las aspas de los aerogeneradores se produce energía eléctrica:</p>
+                <img src="/Proyecto final/imagenes2/viento.jpeg" alt="El viento">
+
+                <i class="fa-solid fa-plus" id="boton" onclick="mostrar();"></i>
+            
+                <div id="video">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/rQ-3hSdJI-0?si=RnARQqT1MxOXhsZK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/16E1lPwPcPo?si=wzA0br8dKj8wyuIW" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </div>
+                <script src="/Proyecto final/javascript/Energía.js"></script>
 
-                <div class="tarjetas">
-                    <h3> Cinética</h3>
-                    <img src="/Proyecto final/imagenes/energía cinética.jpeg" alt="Energía cinética">
-                    <p class="uno">Forma de energía que posee un objeto de acuerdo a su movimiento, masa y velocidad.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: cuando el viento se mueve y golpea un objeto.
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Potencial</h3>
-                    <img src="/Proyecto final/imagenes/energia potencial.webp" alt="Energía potencial">
-                    <p class="uno">Es la energía almacenada en un cuerpo de acuerdo a su posición
-                    </p>
-                    <p class="dos">
-                        Ejemplo: La luz.
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Interna</h3>
-                    <img src="/Proyecto final/imagenes/energía interna.jpeg" alt="Energía interna">
-                    <p class="uno">La energía que se manifiesta a través de la temperatura, cuanta más tenga, más energía interna tiene.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: El vapor del agua.
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Eléctrica</h3>
-                    <img src="/Proyecto final/imagenes/energía electrica.jpeg" alt="Energía electrica">
-                    <p class="uno">La energía que se manifiesta a través de la temperatura, cuanta más tenga, más energía interna tiene.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: Encender una bombilla.
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Térmica</h3>
-                    <img src="/Proyecto final/imagenes/irradiación del sol.jpeg" alt="Energía térmica">
-                    <p class="uno">Energía que pasa de un cuerpo caliente a otro más frío manifestándose mediante el calor.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: La irradiación del sol.
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Electromagnética</h3>
-                    <img src="/Proyecto final/imagenes/el sol energía electromagnética.jpeg" alt="Energía electromagnétrica">
-                    <p class="uno">Se caracteriza por el movimiento de partículas eléctricas y magnéticas que generan un campo electromagnético y se propagan a la velocidad de la luz.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: El sol.
-
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Química</h3>
-                    <img src="/Proyecto final/imagenes/gas natural.jpeg" alt="Energía química">
-                    <p class="uno">Hace referencia a la manifestación de algunas reacciones químicas que forman o rompen enlaces químicos.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: El gas natural.
-
-                    </p>
-                </div>
-
-                <div class="tarjetas">
-                    <h3> Nuclear</h3>
-                    <img src="/Proyecto final/imagenes/energía nuclear.jpg" alt="Energía nuclear">
-                    <p class="uno">Se genera a partir de la interacción de los átomos.
-                    </p>
-                    <p class="dos">
-                        Ejemplo: pila atómica.
-
-                    </p>
-                </div>
-        </div>
-
-
-        </section>
-    </MAIN>
+            </article>
+            
+    </section>
+    
+    <Footer>
+        
+    </Footer>
+    
 </body>
 </html>
