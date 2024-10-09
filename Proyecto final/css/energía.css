@@ -63,16 +63,22 @@ body{
     border-radius: 10px;
     border: 3px solid #5A7356 ;
     width: 600px;
-    height: 150px;
+    height: auto;
+    
+}
+
+.fuentes img{
+    position: relative;
+    left:5%;
+    bottom:140px;
 }
 .fuentes img {
     width: 170px;
     height: 130px;
-    position: relative;
-    bottom: 93%;
-    left:5%;
     border-radius: 10px;
 }
+
+
 .fuentes h4{
     width: 300px;
     height: 20px;
@@ -98,19 +104,29 @@ body{
 .fuentes i{
     position: relative;
     left:65%;
-    bottom: 90%;
+    bottom: 120px;
 }
 
+.fuentes i{
+    cursor: pointer;
+}
 
 #video{
     display: none;
+    position: relative;
+    bottom: 110px;
+    background-color:#ABBD99;
+    text-align: center;
+    padding:10px;
 }
+
+
 /*
 .iframe{
     position: relative;
     bottom: 17%;
     left:4%;
 }
-    */
+*/
 
 
