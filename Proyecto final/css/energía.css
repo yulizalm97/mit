@@ -33,8 +33,9 @@ body{
 .container {
     display: flex;
     align-items: center;
+    justify-content: center;
     position: relative;
-    left: 30%;
+    left: 32%;
     background-color:#ABBD99;
     border-radius: 10px;
     border: 3px solid #5A7356 ;
@@ -55,78 +56,81 @@ body{
 /*article fuentes*/
 
 .fuentes{
-    align-items: center;
-    position: relative;
-    left: 30%;
-    top: 10px;
+    display: flex;
     background-color:#E8EBE8;
     border-radius: 10px;
-    border: 3px solid #5A7356 ;
-    width: 600px;
+    border: 3px solid #5A7356;
+    width: 532px;
+    position: relative;
+    left:33.5%;
+    top: 10px;
+    padding:10px;
+    margin:5px;
     height: auto;
-    
 }
 
 .fuentes img{
-    position: relative;
-    left:5%;
-    bottom:140px;
-}
-.fuentes img {
-    width: 170px;
-    height: 130px;
+    width: 200px;
+    height: 150px;
     border-radius: 10px;
-}
-
-
-.fuentes h4{
-    width: 300px;
-    height: 20px;
-    text-align: center;
-    position: relative;
-    bottom:1%;
-    left:40%;
-    padding: 4px;
-    background-color:#ABBD99;
-    border-radius: 10px;
-}
-.fuentes p {
-    width: 300px;
     position:relative;
-    bottom:2%;
-    padding: 4px;
-    left: 40%;
-    background-color:#ABBD99;
-    border-radius: 10px;
-    text-align: justify;
-}
-
-.fuentes i{
-    position: relative;
-    left:65%;
-    bottom: 120px;
+    left:1%;
 }
 
 .fuentes i{
     cursor: pointer;
+    position: relative;
+    top:130px;
+    right:63%;
 }
+
+.fuentes h4{
+    position: relative;
+    bottom:30px;
+    text-align: center;
+    width: 300px;
+    height: 20px;
+    background-color:#ABBD99;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.fuentes p {
+    position: relative;
+    top:20px;
+    right:50%;
+    text-align: justify;
+    background-color:#ABBD99;
+    width: 280px;
+    height: 76px;
+    padding:15px;
+    border-radius: 8px;
+}
+
+.contenido{
+    display: flex;
+    padding: 10px;
+    height: auto;
+    position: relative;
+    left:1%;
+}
+
 
 #video{
-    display: none;
-    position: relative;
-    bottom: 110px;
-    background-color:#ABBD99;
+    display:none;
+    justify-content: space-between;
+    background-color:#5A7356;
     text-align: center;
     padding:10px;
-}
-
-
-/*
-.iframe{
+    width: 500px;
+    height: auto;
     position: relative;
-    bottom: 17%;
-    left:4%;
+    right:160%;
+    top:170px;
+    gap:1.1em;
 }
-*/
+
+
+
 
 
