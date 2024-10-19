@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Contador de número</h1>
+    <form action="/" method="POST">
+        <label for="numero">Ingresa el número:</label>
+        <input type="number" name="numero" id="numero" required>
+        <button type="submit">contar</button>
+    </form>
+
+    <!--para imprimir una cadena, debemos hacer un ciclo for-->
+
+    {%if numeros%} <!--identificar si tenemos los numeros, si sí-->
+    <h2>Contando los números hasta {{numeros| length}}</h2> <!--se imprime el tamaño que tiene almacenado dentro de esa lista números y para colocarlos con viñetas se pone ul-->
+    <ul>
+        <!--para graficar uno en uno con for-->
+        {%for numero in numeros%}
+            <li>{{ numero }}</li>
+        {%endfor%}<!--el fin del for-->
+    </ul>
+    {%endif%} <!--el fin del if-->
+</body>
+</html>
