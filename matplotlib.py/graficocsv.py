@@ -20,3 +20,4 @@ plt.show()
 #graficar la media de esos datos dentro de ese grafico
 
 #datos en la gráfica.Calcular la media, Agregar la línea
+
