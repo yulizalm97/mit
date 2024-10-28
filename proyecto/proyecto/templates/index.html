@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Ingresar Datos</h2>
+    <form action="/submit" method="POST">
+        <label for="name">Nombre:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+        <label for="age">Edad:</label><br>
+        <input type="number" id="age" name="age"><br><br>
+        <label for="sex">Sexo:</label><br>
+        <select id="sex" name="sex">
+            <option value="Male">Masculino</option>
+            <option value="Female">Femenino</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <br><br>
+    <form action="/show" method="POST">
+        <button type="submit">Mostrar Datos</button>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario y Gráficas</title>
+    <link rel="stylesheet" href="/static/estilos.css">
+</head>
+<body>
+
+    <h1>Formulario de Datos</h1>
+    <form action="/submit" method="POST">
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br><br>
+
+        <label for="edad">Edad:</label><br>
+        <input type="number" id="edad" name="edad" required><br><br>
+
+        <label for="sexo">Sexo:</label><br>
+        <select id="sexo" name="sexo" required>
+            <option value="M">Masculino</option>
+            <option value="F">Femenino</option>
+        </select><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+    <hr>
+
+    <h2>Gráfica de Torta: Sexo</h2>
+    <img src="/static/sexo_pie_chart.png" alt="Gráfica de Torta de Sexo">
+    
+    <h2>Gráfica de Barra: Edad</h2>
+    <img src="/static/edad_bar_chart.png" alt="Gráfica de Barra de Edad">
+
+    <!-- Incluir el archivo JavaScript -->
+    <script src="/static/scripts.js"></script>
+</body>
+</html>
